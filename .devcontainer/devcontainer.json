@@ -1,0 +1,21 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/node-asdf:0": {
+			"version": "latest"
+		},
+		"ghcr.io/roul/devcontainer-features/mise-node:1": {},
+		"ghcr.io/helpers4/devcontainer/nub:1": {
+			"installGlobally": true
+		},
+		"ghcr.io/postfinance/devcontainer-features/node:1": {
+			"version": "latest",
+			"npmVersion": "latest",
+			"yarnVersion": "latest",
+			"pnpmVersion": "latest",
+			"corepackVersion": "latest",
+			"downloadUrl": "https://mycompany.com/artifactory/nodejs-generic-remote/dist",
+			"globalNpmRegistry": "https://mycompany.com/artifactory/api/npm/npm/"
+		}
+	}
+}
