@@ -28,8 +28,3 @@ const course = {
 }
 const {courseInstructor : teacher} = course;
 console.log({teacher});
-
-const navbar = () => {
-
-}
-navbar(company =  )
